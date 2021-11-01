@@ -171,7 +171,7 @@ export class HomeComponent implements OnInit {
       opacity: 0,
     });
 
-    gsap.from(this.document.querySelector('#firstsection'), {
+    /*gsap.from(this.document.querySelector('#firstsection'), {
       scrollTrigger: {
         trigger: this.document.querySelector('#firstsection'),
         scrub: true,
@@ -194,7 +194,7 @@ export class HomeComponent implements OnInit {
       duration:2.5,
       delay:1.9,
       stagger:0.1,
-    });
+    });*/
     
   }
 
