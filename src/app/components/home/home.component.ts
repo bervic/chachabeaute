@@ -19,6 +19,10 @@ export class HomeComponent implements OnInit {
   gsapSubtitle!: ElementRef<HTMLDivElement>;
   @ViewChild('gsapButton', { static: true })
   gsapButton!: ElementRef<HTMLDivElement>;
+  @ViewChild('menu', { static: true })
+  menu!: ElementRef<HTMLDivElement>;
+  @ViewChild('menuRight', { static: true })
+  menuRight!: ElementRef<HTMLDivElement>;
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit(): void {
@@ -195,6 +199,22 @@ export class HomeComponent implements OnInit {
   }
 
   initialAnimations(): void {
+    gsap.from(this.menu.nativeElement.childNodes, {
+      duration: 0.5,
+      opacity: 0,
+      y: -20,
+      stagger: 0.2,
+      delay: 0.5
+    });
+
+    gsap.from(this.menuRight.nativeElement.childNodes, {
+      duration: 0.5,
+      opacity: 0,
+      y: -20,
+      stagger: 0.2,
+      delay: 0.8
+    });
+
     gsap.from(this.gsapTitle.nativeElement.childNodes, {
       scrollTrigger: ".gsapTitle",
       x:200,

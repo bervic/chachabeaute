@@ -44,6 +44,7 @@
 .navigation-clean-button .navbar-nav a.active, .navigation-clean-button .navbar-nav > .show > a {
   background: none;
   box-shadow: none;
+  color: rgb(4,210,74);
 }
 
 .navigation-clean-button.navbar-light .navbar-nav a.active, .navigation-clean-button.navbar-light .navbar-nav a.active:focus, .navigation-clean-button.navbar-light .navbar-nav a.active:hover {

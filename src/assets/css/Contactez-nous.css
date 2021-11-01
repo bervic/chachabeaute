@@ -1,0 +1,95 @@
+.ftco-section {
+  padding: 7em 0;
+}
+
+.ftco-no-pt {
+  padding-top: 0;
+}
+
+.ftco-no-pb {
+  padding-bottom: 0;
+}
+
+.heading-section {
+  font-size: 28px;
+  color: #000;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.contact-wrap {
+  background: #555;
+}
+
+.dbox {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .dbox {
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
+.dbox p {
+  margin-bottom: 0;
+}
+
+.dbox p span {
+  font-weight: 500;
+  color: #000;
+}
+
+.dbox p a {
+  color: #2553b8;
+}
+
+.dbox .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #17E52B;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.dbox .icon i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.dbox .text {
+  width: 100%;
+}
+
+.contactForm .form-label {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contactForm .form-control {
+  border: none;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > .col, .no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+

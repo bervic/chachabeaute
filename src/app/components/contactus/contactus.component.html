@@ -1,1 +1,111 @@
-<p>contactus works!</p>
+    <!-- Start: Dark NavBar -->
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-xl fixed-top navigation-clean-button" style="height: 30px;background-color: #555;color: #ffffff;transform: translateY(-1px);">
+            <div class="container"><a class="navbar-brand" href="#">&nbsp;<img src="assets/img/logo.png?h=3d6e7daefdc9e4fa36430fa725a07668" style="width: 104px;height: 117px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="transform: translateY(-31px);"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav mx-auto" #menu>
+                        <li class="nav-item"><a class="nav-link active" style="color:#ffffff;" routerLink="/">&nbsp;Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="servic.html">&nbsp;Nos services</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" routerLink="magasiner.html">&nbsp;Magasiner</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" routerLink="/A-propos-de-nous">&nbsp;Qui sommes nous</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" routerLink="/blog">&nbsp;Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#17E52B;" routerLink="/contactez-nous">&nbsp;Contactez-nous</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto" #menuRight>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="#"><i class="fa fa-search"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="#"><i class="fa fa-heart"></i><span class="badge rounded-pill badge-notification bg-danger">1</span>&nbsp;</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="#"><i class="fa fa-shopping-cart"></i><span class="badge rounded-pill badge-notification bg-danger">1</span>&nbsp; &nbsp;$1500</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="#"><i class="fa fa-sign-in"></i>&nbsp; Connexion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div><!-- End: Dark NavBar -->
+
+
+    <!-- Start: header-cover -->
+    <header class="header">
+        <div class="header-container" style="padding-top: 100px;padding-bottom: 175px;background: url(&quot;assets/img/partnership-scaled-1.jpg?h=a1ee4eaab2066441373f9a1cadef54fe&quot;) center / cover;">
+            <div class="container">
+                <div class="col-md-6 offset-md-3 header-title">
+                    <h1 class="text-center" style="color:#ffffff;">Contactez nous</h1>
+                </div>
+            </div>
+        </div>
+    </header><!-- End: header-cover -->
+    <!-- Start: Contactez nous -->
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <div class="row justify-content-center no-gutters mb-5" style="color: #ffffff;">
+                            <div class="col-md-5">
+                                <div class="contact-wrap p-md-5 p-4">
+                                    <h3 style="font-weight: bold;">Contactez nous</h3>
+                                    <div id="form-message-warning" class="mb-4"></div>
+                                    <div id="form-message-success" class="mb-4"></div>
+                                    <form id="contactForm" class="contactForm" name="contactForm">
+                                        <div class="row row-contact">
+                                            <div class="col-md-10">
+                                                <div class="form-group"><label class="form-label" for="name">Nom, Prénom</label><input class="form-control" type="text" id="name-1" placeholder="Nom" name="name"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row row-contact">
+                                            <div class="col-md-10">
+                                                <div class="form-group"><label class="form-label" for="email">Courriel</label><input class="form-control" type="email" id="email-1" placeholder="Courriel" name="email"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row row-contact">
+                                            <div class="col-md-10">
+                                                <div class="form-group"><label class="form-label" for="subject">SUJET</label><input class="form-control" type="text" id="subject-1" name="subject" placeholder="Sujet"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row row-contact">
+                                            <div class="col-md-10">
+                                                <div class="form-group"><label class="form-label" for="subject">Message</label><textarea class="form-control" id="message-1" placeholder="Message" name="message" cols="30" rows="4"></textarea></div>
+                                            </div>
+                                        </div>
+                                        <div class="row row-contact">
+                                            <div class="col-md-10">
+                                                <div class="form-group"><button class="btn btn-primary" type="submit">Envoyer</button>
+                                                    <div class="submitting"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-4 align-self-stretch d-flex"><iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDmnWSV8RCtgcPl0LGMXPdtQLbilhLiLFo&amp;q=320+Rue+sainte-catherine+E&amp;zoom=11" width="100%" height="100%" style="z-index: -1;/*position: absolute;*/width: 100%;height: 100%;top: 0px;left: 0px;"></iframe></div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-3">
+                                <div class="text-center dbox w-100">
+                                    <div class="d-flex icon align-items-center justify-content-center"><i class="fa fa-map-marker" style="/*color: #ffffff;*/"></i></div>
+                                    <div class="text">
+                                        <p><span>Adresse :&nbsp;</span>320 Rue sainte-catherine E, Montréal QC H2X 1L7<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center dbox w-100">
+                                    <div class="d-flex icon align-items-center justify-content-center"><i class="fa fa-phone"></i></div>
+                                    <div class="text">
+                                        <p><span>Téléphone :&nbsp;</span>+1 485 268 9845<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center dbox w-100">
+                                    <div class="d-flex icon align-items-center justify-content-center"><i class="fa fa-paper-plane-o"></i></div>
+                                    <div class="text">
+                                        <p><span>Courriel :&nbsp;</span>aze@yahoo.fr<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End: Contactez nous -->

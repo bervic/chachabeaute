@@ -308,7 +308,7 @@ section {
   top: 26px;
   right: 20px;
   font-size: 20px;
-  color: black;
+  color: #17E52B;
   line-height: 0;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
@@ -318,7 +318,7 @@ section {
 }
 
 .block2-btn-addwishlist:hover {
-  color: black;
+  color: #17E52B;
 }
 
 .block2-btn-addwishlist .icon-wishlist {
