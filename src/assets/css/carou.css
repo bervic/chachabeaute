@@ -1,0 +1,75 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  height: 500px;
+}
+
+.hero-title, .hero-subtitle, .btn.btn-primary.hero-button.plat {
+  transform: translateY(150px);
+}
+
+.hero-subtitle {
+  /*transform: translateY(129px);*/
+}
+
+.btn.btn-primary.hero-button.plat {
+  /*transform: translateY(100px);*/
+}
+
+div.jumbotron.hero-nature {
+  background-image: url('../../assets/img/P4.png?h=c19d23e66c6682412d6281c4c70d5399');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0 #048f83!important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #016090;
+  border-color: #016090;
+}
+
+.btn.btn-primary {
+  background-color: #17E52B!important;
+  border-color: #17E52B!important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
